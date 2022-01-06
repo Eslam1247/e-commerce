@@ -755,6 +755,27 @@ header .header-2.header-active{
         font-size: 50%;
     }
 
+    header .header-2 .navbar ul{
+        flex-flow: column;
+        border:.2rem solid #fff;
+        background-color: #2980b9;
+        box-shadow: 0 .3rem .5rem #000;
+        padding:4rem 0;
+        width: 60rem;
+        height: 60rem;
+    }
+
+    header .header-2 .navbar ul li{
+        width: 100%;
+        margin:1rem 0;
+        text-align: center;
+    }
+
+    header .header-2 .navbar ul li a{
+        font-size: 2.5rem;
+        display: block;
+    }
+
     .home .home-slider .item .content h3{
         font-size: 3rem;
     }
